@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+   <link rel="stylesheet" href="./scss/app.css"/>
+   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid-general">
+
+    <!--NAVBAR-->
+    <div class="container-fluid row">
+        <nav class="navbar navbar-expand-lg pt-4 mb-5 fixed-top">
+
+        <div class="navFirstSection col-4">
+          <a class="navbar-brand ps-3" href="#" >
+            <img class="ciambella"
+              src="https://ciambelledigitali.com/wp-content/uploads/2022/09/Logomark-1.png"
+              class="logoimg logo-dark"
+              alt="Ciambelle Digitali"
+              width="70px"
+              aspect-ratio="1/1"
+               
+            />
+          </a>
+        </div>
+
+        <div class=" collapse navbar-collapse" class="navSecondSection" id="navbarNav col-4 ">
+          <ul class="navbar-nav ">
+            
+              <li class="nav-item" >
+                <a class="nav-link active">Home</a>
+              </li>
+       
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">FAQ</a>
+              </li>
+            </ul>
+            </div>
+
+            <div class="navThirdSection col-4 pe-4 d-flex justify-content-end">
+              <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link"> <i class="bi bi-facebook"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"> <i class="bi bi-instagram"></i></a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--FINE NAVBAR-->
+
+    <!--SEZIONE PRIMO PIANO-->
+    <div class="containerSezionePrimoPiano">
+        <div class="row">
+            <div class= "col-6">
+               <img src="https://i.etsystatic.com/29590405/r/il/337972/3102902582/il_794xN.3102902582_7xak.jpg">
+            </div>
+        <div class="col-6">
+            
+            <p> Tutte <br>le nostre ciambelle <br>  sono <br>
+                <span class="parole">
+                    <i>gustose</i>
+                    <i>soffici</i>
+                    <i>colorate</i>
+                </span>
+            </p>
+            
+        </div>
+</div>
+
+
+    </div>
+     <!--PARTHERSHIP-->
+     <div class="partner mt-5">
+        <h2 class="text-center fw-bold" > I NOSTRI PARTNER</h2>
+        <div class="row">
+            <div class="col-12 text-center">
+            <img src="./img/logo-1.png" width="400px">    
+            </div>
+        </div>
+        <div class="contenitorePartner">
+        <div class="row">
+           <!-- <div class="col-2">
+            <img src="./img/logo-2.png" width="200px"  aspect-ratio="1/1"class=" mx-auto d-block align-middle">    
+            </div>
+          <div class="col-2 ">
+                <img src="./img/logo-3.png" width="200px" aspect-ratio="1/1" class=" mx-auto d-block align-middle">    
+            </div>
+            <div class="col-2 ">
+                <img src="./img/logo-4.png" width="200px" aspect-ratio="1/1"class=" mx-auto d-block align-middle">    
+            </div>
+            <div class="col-2 ">
+                <img src="./img/logo-5.png" width="200px" aspect-ratio="1/1"class=" mx-auto d-block align-middle">    
+            </div>
+            <div class="col-2 ">
+                <img src="./img/logo-6.png" width="200px" aspect-ratio="1/1"class=" mx-auto d-block align-middle">    
+            </div>
+            <div class="col-2 ">
+                <img src="./img/logo-7.png" width="200px" aspect-ratio="1/1"class=" mx-auto d-block align-middle">    
+            </div> --> 
+        </div>
+      </div>
+
+     </div>
+
+
+     <!--CAROUSEL-->
+     <h4> TESTIMONIANZE</h4>
+     <div class="containerCarousel d-flex justify-content-center my-5">
+     <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-color=$shocking">
+            <img src="./img/carosello1.png" width="40px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carosello2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carosello3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carosello4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carosello5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="row pt-3">
+            <div class="col-2 ">
+                <img
+                src="https://ciambelledigitali.com/wp-content/uploads/2022/09/Logomark-1.png"
+                class="logoimg logo-dark"
+                alt="Ciambelle Digitali"
+                width="70px"
+                aspect-ratio="1/1"
+              />
+            </div>
+            <div class="col-5 pt-2">
+                <h5>CONTATTI</h5>
+                <p> <i class="bi bi-geo-alt-fill"></i> Springfield, Illinois, USA</p>
+                <p><i class="bi bi-telephone-fill"></i> 3355-1337 </p>
+                
+            </div>
+            <div class="col-5 pt-2">
+                <h5>COPYRIGHT</h4>
+                <p> P.IVA 012345 </p>
+                <p> <i class="bi bi-c-circle-fill"></i> 2022 Ciambelle</p>
+                <p> Made with <i class="bi bi-heart-fill"></i> </p>
+                
+                <button> Dark Version</button>
+            </div>
+
+        </div>
+    </footer>
+  
+ 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

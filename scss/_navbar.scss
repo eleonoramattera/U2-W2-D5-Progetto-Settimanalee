@@ -1,0 +1,16 @@
+.navbar {
+  background-color: $peace;
+
+  .nav-link {
+    font: {
+      size: 20px;
+      weight: bold;
+    }
+    color: $death;
+    cursor: pointer;
+  }
+}
+
+i {
+  font-size: 25px;
+}

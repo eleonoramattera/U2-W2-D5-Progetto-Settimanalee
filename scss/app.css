@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body,
+html {
+  width: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container.fluid,
+.row {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+.navbar .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+i {
+  font-size: 25px;
+}
+
+.containerSezionePrimoPiano {
+  margin: auto;
+  margin-top: 150px;
+  width: 95%;
+  height: 500px;
+  padding: 0;
+  position: relative;
+  overflow-y: hidden;
+  border-radius: 50px;
+  border-width: 20px;
+  border-color: #acf3ff;
+  border-style: solid;
+}
+.containerSezionePrimoPiano img {
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+.containerSezionePrimoPiano p {
+  color: rgb(0, 0, 0);
+  margin: 40px;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+  font-weight: bold;
+}
+.containerSezionePrimoPiano p i {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bolder;
+  opacity: 0;
+  overflow: hidden;
+  color: #f50066;
+  -webkit-animation: testoInMovimento 6s linear infinite 0s;
+  animation: testoInMovimento 6s linear infinite 0s;
+}
+
+.parole i:nth-child(2) {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  color: #f50066;
+}
+
+.parole i:nth-child(3) {
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  color: #f50066;
+}
+
+@-webkit-keyframes testoInMovimento {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes testoInMovimento {
+  0% {
+    opacity: 0;
+  }
+  2% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  5% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  17% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  20% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+button {
+  background: linear-gradient(0deg, #f50066 0%, #f11d8c 35%, #e76dac 100%);
+  padding: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f50066;
+}
+
+footer {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+footer h5 {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+footer p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 2px;
+}
+footer i {
+  font-size: 20px;
+}
+footer button {
+  position: absolute;
+  bottom: 10px;
+  right: 16px;
+}/*# sourceMappingURL=app.css.map */
