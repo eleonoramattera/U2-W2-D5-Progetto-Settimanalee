@@ -14,3 +14,22 @@
 i {
   font-size: 25px;
 }
+
+img.ciambella {
+  animation-name: ciambellaCheRuota;
+
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes ciambellaCheRuota {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(200deg);
+  }
+}

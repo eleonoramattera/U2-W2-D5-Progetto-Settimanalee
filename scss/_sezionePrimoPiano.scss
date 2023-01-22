@@ -1,113 +1,43 @@
 .containerSezionePrimoPiano {
   margin: auto;
   margin-top: 150px;
-  width: 95%;
+  width: 100%;
   height: 500px;
   padding: 0;
   position: relative;
   overflow-y: hidden;
-  border: {
-    radius: 50px;
-    width: 20px;
-    color: $sea-superLight;
-    style: solid;
-  }
-  img {
-    position: absolute;
-    left: 0;
-    width: 50%;
-  }
 
-  p {
-    color: $death;
-    margin: 40px;
-    text-align: center;
-    position: relative;
-    font: {
-      size: 35px;
-      weight: bold;
-    }
-    i {
-      text-transform: uppercase;
-      font-size: 50px;
-      font-style: normal;
-      font-weight: bolder;
-      //position: absolute;
-      // left: 280px;
-      opacity: 0;
-      overflow: hidden;
-      color: $shocking;
-      -webkit-animation: testoInMovimento 6s linear infinite 0s;
-      -ms-animation: testoInMovimento 6s linear infinite 0s;
-      animation: testoInMovimento 6s linear infinite 0s;
-    }
+  .img1 {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 10px;
+  }
+  .img2 {
+    position: absolute;
+    top: 155px;
+    right: 0;
+    width: 27%;
+  }
+  .img3 {
+    position: absolute;
+    top: 281px;
+    right: 130px;
+    width: 22%;
+  }
+  h1 {
+    font-size: 45px;
+    margin-top: 15px;
+  }
+  button {
+    margin-top: 20px;
   }
 }
-.parole i:nth-child(2) {
-  -webkit-animation-delay: 2s;
-  -ms-animation-delay: 2s;
-  animation-delay: 2s;
-  color: $shocking;
-}
-.parole i:nth-child(3) {
-  -webkit-animation-delay: 4s;
-  -ms-animation-delay: 4s;
-  animation-delay: 4s;
-  color: $shocking;
-}
-@-webkit-keyframes testoInMovimento {
-  0% {
-    opacity: 0;
-  }
-  2% {
-    opacity: 0;
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  5% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-  }
-  20% {
-    opacity: 0;
-    -webkit-transform: translateY(30px);
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes testoInMovimento {
-  0% {
-    opacity: 0;
-  }
-  2% {
-    opacity: 0;
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  5% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-  }
-  17% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    transform: translateY(0px);
-  }
-  20% {
-    opacity: 0;
-    -webkit-transform: translateY(30px);
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 0;
-  }
+#gustiCiambelle {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 250px;
+  font-size: 22px;
 }

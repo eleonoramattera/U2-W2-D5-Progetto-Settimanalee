@@ -1,0 +1,22 @@
+@mixin baseButton($colorOne, $colorTwo, $colorThree, $mainColor) {
+  background: linear-gradient(
+    0deg,
+    $colorOne 0%,
+    $colorTwo 35%,
+    $colorThree 100%
+  );
+  padding: 10px;
+  border: {
+    radius: 20px;
+    style: solid;
+    color: $mainColor;
+  }
+}
+
+.buttonShoking {
+  @include baseButton($shocking, $shocking-light, $sea-superLight, $shocking);
+}
+
+.buttonBlue {
+  @include baseButton($celeste, $celeste-light, $celeste-superLight, $celeste);
+}
