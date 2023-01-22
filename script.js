@@ -23,8 +23,11 @@ function typeWriter() {
 
 function changeColor() {
   const bottone = document.querySelector(".buttonShoking");
-  document.querySelector(body).style.backgroundColor = "#0a0a0a";
-  document.querySelector(p).style.backgroundColor = "#0a0a0a";
+  document.querySelector("body").style.backgroundColor = "#0a0a0a";
+  document.querySelector("p").style.color = "#ffffff";
+  document.querySelector("h1").style.color = "#ffffff";
+  document.querySelector("h2").style.color = "#ffffff";
+  document.querySelector(".navbar").style.color = "#f50066";
 }
 
 /*PARTNER
