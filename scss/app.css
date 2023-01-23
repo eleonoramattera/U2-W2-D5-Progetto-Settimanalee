@@ -82,6 +82,16 @@ img.ciambella {
   position: relative;
   overflow-y: hidden;
 }
+@media screen and (max-width: 766px) {
+  .containerSezionePrimoPiano {
+    height: 296px;
+  }
+}
+@media screen and (min-width: 1378px) {
+  .containerSezionePrimoPiano {
+    height: 680px;
+  }
+}
 .containerSezionePrimoPiano .img1 {
   position: absolute;
   top: 2px;
@@ -96,11 +106,21 @@ img.ciambella {
   right: 0;
   width: 27%;
 }
+@media screen and (mix-width: 767px) {
+  .containerSezionePrimoPiano .img2 {
+    display: none;
+  }
+}
 .containerSezionePrimoPiano .img3 {
   position: absolute;
   top: 281px;
   right: 130px;
   width: 22%;
+}
+@media screen and (mix-width: 767px) {
+  .containerSezionePrimoPiano .img3 {
+    display: none;
+  }
 }
 .containerSezionePrimoPiano h1 {
   font-size: 45px;
@@ -112,8 +132,7 @@ img.ciambella {
 
 #gustiCiambelle {
   padding-top: 20px;
-  padding-left: 150px;
-  padding-right: 250px;
+  padding-right: 260px;
   font-size: 22px;
 }
 

@@ -6,6 +6,13 @@
   padding: 0;
   position: relative;
   overflow-y: hidden;
+  @media screen and (max-width: 766px) {
+    height: 296px;
+  }
+
+  @media screen and (min-width: 1378px) {
+    height: 680px;
+  }
 
   .img1 {
     position: absolute;
@@ -20,12 +27,18 @@
     top: 155px;
     right: 0;
     width: 27%;
+    @media screen and(mix-width: 767px) {
+      display: none;
+    }
   }
   .img3 {
     position: absolute;
     top: 281px;
     right: 130px;
     width: 22%;
+    @media screen and(mix-width: 767px) {
+      display: none;
+    }
   }
   h1 {
     font-size: 45px;
@@ -37,7 +50,7 @@
 }
 #gustiCiambelle {
   padding-top: 20px;
-  padding-left: 150px;
-  padding-right: 250px;
+
+  padding-right: 260px;
   font-size: 22px;
 }

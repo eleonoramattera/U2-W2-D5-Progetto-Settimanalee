@@ -10,7 +10,7 @@ window.onscroll = () => {
 */
 /* SEZIONE PRIMO PIANO- GUSTI CIAMBELLE*/
 let i = 0;
-let txt = "Cioccolato Crema  Nutella Pistacchio  Marmellata Miele";
+let txt = "Cioccolato Crema  Marmellata Nutella Pistacchio  Miele";
 var speed = 50;
 
 function typeWriter() {
