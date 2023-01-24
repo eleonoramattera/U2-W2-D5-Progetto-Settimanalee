@@ -1,13 +1,3 @@
-/*const ciambella = document.querySelector(".ciambella");
-window.onscroll = () => {
-  if (window.scrollY > 400) {
-    setInterval(function () {
-      ciambella.style.transform = "rotate(150deg)";
-    });
-    ciambella.style.transform = "rotate(150deg)";
-  }
-};
-*/
 /* SEZIONE PRIMO PIANO- GUSTI CIAMBELLE*/
 let i = 0;
 let txt = "Cioccolato Crema  Marmellata Nutella Pistacchio  Miele";
@@ -26,7 +16,7 @@ function changeColor() {
   document.querySelector("body").style.backgroundColor = "#0a0a0a";
   document.querySelector("p").style.color = "#ffffff";
   document.querySelector("h1").style.color = "#ffffff";
-  document.querySelector("h2").style.color = "#ffffff";
+  document.getElementsByTagName("h2").style.color = "#ffffff";
   document.querySelector(".navbar").style.color = "#f50066";
 }
 
