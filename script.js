@@ -14,10 +14,23 @@ function typeWriter() {
 function changeColor() {
   const bottone = document.querySelector(".buttonShoking");
   document.querySelector("body").style.backgroundColor = "#0a0a0a";
-  document.querySelector("p").style.color = "#ffffff";
   document.querySelector("h1").style.color = "#ffffff";
-  document.getElementsByTagName("h2").style.color = "#ffffff";
-  document.querySelector(".navbar").style.color = "#f50066";
+  document.querySelector(".navbar").style.backgroundColor = "#f11d8c";
+
+  const navlink = document.querySelectorAll(".nav-link");
+  navlink.forEach((navlink) => {
+    navlink.style.color = "#ffffff";
+  });
+
+  const p = document.querySelectorAll("p");
+  p.forEach((h2) => {
+    h2.style.color = "#ffffff";
+  });
+
+  const h2 = document.querySelectorAll("h2");
+  h2.forEach((h2) => {
+    h2.style.color = "#ffffff";
+  });
 }
 
 /*PARTNER
